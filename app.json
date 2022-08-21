@@ -1,0 +1,20 @@
+{
+  "name": "Telegram Message Forwarder Bot",
+  "description": "A Telegram forwarder bot, which can easily be deployed to Heroku.",
+  "env": {
+    "API_ID": {
+      "description": "App api_id from https://my.telegram.org"
+    },
+    "API_HASH": {
+      "description": "App api_hash from https://my.telegram.org"
+    },
+    "TELEGRAM_SESSION": {
+      "description": "Telegram session name, required if you want to login as user",
+      "required": false
+    },
+    "ADVANCE_CONFIG": {
+      "description": "Advance config values in valid format.",
+      "required": false
+    }
+  }
+}
